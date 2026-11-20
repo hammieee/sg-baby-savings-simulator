@@ -1,0 +1,1193 @@
+{
+  "delivery_moh_median": {
+    "c_section_uncomplicated": [
+      {
+        "hospital": "NUH",
+        "price": 2240,
+        "range": [
+          1796,
+          4096
+        ],
+        "ward": "C"
+      },
+      {
+        "hospital": "NUH",
+        "price": 2317,
+        "range": [
+          1659,
+          3211
+        ],
+        "ward": "B2"
+      },
+      {
+        "hospital": "KKH",
+        "price": 2733,
+        "range": [
+          2140,
+          3749
+        ],
+        "ward": "B2"
+      },
+      {
+        "hospital": "KKH",
+        "price": 3148,
+        "range": [
+          2322,
+          4763
+        ],
+        "ward": "C"
+      },
+      {
+        "hospital": "KKH",
+        "price": 9814,
+        "range": [
+          8304,
+          11457
+        ],
+        "ward": "A (1-bedded)"
+      },
+      {
+        "hospital": "Thomson",
+        "price": 11502,
+        "range": [
+          8578,
+          13665
+        ],
+        "ward": "4-bedded"
+      },
+      {
+        "hospital": "Thomson",
+        "price": 13540,
+        "range": [
+          12221,
+          15281
+        ],
+        "ward": "2-bedded"
+      },
+      {
+        "hospital": "Thomson",
+        "price": 15074,
+        "range": [
+          13491,
+          17230
+        ],
+        "ward": "1-bedded"
+      },
+      {
+        "hospital": "Mount Elizabeth Orchard",
+        "price": 19494,
+        "range": [
+          17167,
+          21545
+        ],
+        "ward": "1-bedded"
+      },
+      {
+        "hospital": "Mount Elizabeth Novena",
+        "price": 18694,
+        "range": [
+          17278,
+          20941
+        ],
+        "ward": "1-bedded"
+      },
+      {
+        "hospital": "Gleneagles",
+        "price": 21556,
+        "range": [
+          19592,
+          23986
+        ],
+        "ward": "1-bedded"
+      }
+    ],
+    "emergency_conversion": {
+      "default_probability_if_vaginal_attempted": 0.08,
+      "rule_en": "If emergency C-section occurs, charge the C-section median for the SAME hospital/ward, NOT vaginal + C-section. Add longer stay (3-4d vs 2d). No separate published MOH emergency C-section price exists.",
+      "rule_zh": "如转紧急剖腹产，按同一医院/房型的剖腹产中位数收费，不是自然产+剖腹产叠加。住院天数变长（3-4天 vs 2天）。MOH 没有单独的紧急剖腹产价目。"
+    },
+    "epidural_extra": {
+      "kkh_a": [
+        1000,
+        1500
+      ],
+      "kkh_b1": [
+        800,
+        1200
+      ],
+      "note": "Secondary range only. Anaesthetist epidural fee benchmark $817.50-$1,090 (MOH). Show as range, editable.",
+      "private": [
+        1200,
+        2000
+      ],
+      "public_subsidised": "included / minimal - verify",
+      "verified": false
+    },
+    "note": "Median total bill, 2023 transacted, incl GST, before MediSave. Range = 25th-75th percentile where given.",
+    "source": "https://www.moh.gov.sg/managing-expenses/bills-and-fee-benchmarks/cost-financing/tosp-si836u-bill-information/",
+    "vaginal_uncomplicated": [
+      {
+        "hospital": "NUH",
+        "price": 946,
+        "range": [
+          770,
+          1385
+        ],
+        "ward": "C"
+      },
+      {
+        "hospital": "NUH",
+        "price": 1025,
+        "range": [
+          796,
+          1478
+        ],
+        "ward": "B2"
+      },
+      {
+        "hospital": "KKH",
+        "price": 1385,
+        "range": [
+          1138,
+          1799
+        ],
+        "ward": "C"
+      },
+      {
+        "hospital": "KKH",
+        "price": 1486,
+        "range": [
+          1243,
+          1898
+        ],
+        "ward": "B2"
+      },
+      {
+        "hospital": "SGH",
+        "price": 1319,
+        "range": [
+          937,
+          1893
+        ],
+        "ward": "C"
+      },
+      {
+        "hospital": "KKH",
+        "price": 5780,
+        "range": [
+          5297,
+          6628
+        ],
+        "ward": "A (1-bedded)"
+      },
+      {
+        "hospital": "Thomson",
+        "price": 7580,
+        "range": [
+          5385,
+          9945
+        ],
+        "ward": "4-bedded"
+      },
+      {
+        "hospital": "Thomson",
+        "price": 9263,
+        "range": [
+          7876,
+          10904
+        ],
+        "ward": "2-bedded"
+      },
+      {
+        "hospital": "Thomson",
+        "price": 10802,
+        "range": [
+          9425,
+          12494
+        ],
+        "ward": "1-bedded"
+      },
+      {
+        "hospital": "Mount Elizabeth Orchard",
+        "price": 12597,
+        "range": [
+          11272,
+          14022
+        ],
+        "ward": "1-bedded"
+      },
+      {
+        "hospital": "Mount Elizabeth Novena",
+        "price": 12724,
+        "range": [
+          11358,
+          14126
+        ],
+        "ward": "1-bedded"
+      },
+      {
+        "hospital": "Gleneagles",
+        "price": 13367,
+        "range": [
+          11954,
+          14636
+        ],
+        "ward": "1-bedded"
+      }
+    ],
+    "verified": true
+  },
+  "identity_options": [
+    {
+      "id": "SC",
+      "label_en": "Singapore Citizen (SC)",
+      "label_zh": "新加坡公民",
+      "label_zh_note": "公立C房最高80%津贴，B2房65%，需经济审查。可领 Baby Bonus、CDA、MediSave Grant、MediSave Maternity Package。",
+      "ward_subsidy_note_en": "Public ward C up to 80% subsidy, B2 up to 65%, means-tested. Eligible for Baby Bonus, CDA, MediSave Grant for Newborns, MediSave Maternity Package."
+    },
+    {
+      "id": "PR",
+      "label_en": "Permanent Resident (PR)",
+      "label_zh": "永久居民",
+      "note_en": "Lower subsidy than SC (specialist clinic: PR up to 25% vs SC up to 70%). Eligible for MediSave Maternity Package via own/spouse MediSave. Baby Bonus / CDA / MGN only if the CHILD is SC.",
+      "note_zh": "津贴低于公民。可用自己/配偶 MediSave 扣 Maternity Package。Baby Bonus / CDA / MGN 只有孩子是公民才有。"
+    },
+    {
+      "id": "FOREIGNER",
+      "label_en": "Foreigner",
+      "label_zh": "外国人",
+      "note_en": "No ward subsidy - pay unsubsidised A/B1 rates at public hospitals or private rates. No MediSave, no Baby Bonus / CDA / MGN.",
+      "note_zh": "无津贴，按公立无津贴价或私立价。无 MediSave，无 Baby Bonus / CDA / MGN。"
+    }
+  ],
+  "items": [
+    {
+      "category_en": "Antenatal",
+      "category_zh": "产检",
+      "id": "preg_visit_public",
+      "mandatory": true,
+      "name_en": "Routine antenatal visit - public subsidised (per visit)",
+      "name_zh": "常规产检 - 公立津贴（每次）",
+      "note_en": "Consultation only. Scans/bloods/meds extra. Subsidised needs polyclinic/GP referral, team care, cannot choose doctor.",
+      "private_price": 111.4,
+      "private_price_max": 222.14,
+      "public_price": 37.2,
+      "public_price_max": 101.49,
+      "source": "KKH fee page eff. 8 Aug 2025; MoneySmart 2025",
+      "source_url": "https://www.kkh.com.sg/ward-stay/giving-birth/about-your-pregnancy",
+      "stage": "pregnancy",
+      "type": "per_visit",
+      "verified": true,
+      "visits": "8-10"
+    },
+    {
+      "category_en": "Antenatal",
+      "category_zh": "产检",
+      "id": "preg_oscar",
+      "mandatory": false,
+      "name_en": "OSCAR / First-trimester combined screening (11-14w)",
+      "name_zh": "OSCAR 唐筛（11-14周）",
+      "note_en": "Optional but recommended. ~90% detection for Down syndrome.",
+      "private_price": 350,
+      "private_price_max": 400,
+      "public_price": 200,
+      "source": "MoneySmart; Income; AsianParent Aug 2026",
+      "source_url": "https://blog.moneysmart.sg/family/cost-newborn-baby-singapore/",
+      "stage": "pregnancy",
+      "type": "one_off",
+      "verified": true
+    },
+    {
+      "category_en": "Antenatal",
+      "category_zh": "产检",
+      "id": "preg_nipt",
+      "mandatory": false,
+      "name_en": "NIPT - Harmony / Panorama (from 9-10w)",
+      "name_zh": "NIPT 无创产前检测（9-10周起）",
+      "note_en": "Optional, self-funded, NOT MediSave-claimable. Public $350-400 with referral in some reports - show range, editable.",
+      "private_price": 1200,
+      "private_price_max": 1400,
+      "public_price": 680,
+      "source": "AsianParent Aug 2026; Thomson",
+      "source_url": "https://sg.theasianparent.com/your-comprehensive-guide-to-pregnancy-blood-test-singapore-a-must-for-prenatal-health/amp",
+      "stage": "pregnancy",
+      "type": "one_off",
+      "verified": true
+    },
+    {
+      "category_en": "Antenatal",
+      "category_zh": "产检",
+      "id": "preg_anomaly_scan",
+      "mandatory": true,
+      "name_en": "Detailed fetal anomaly / TIFFA scan (18-22w)",
+      "name_zh": "大排畸 / TIFFA（18-22周）",
+      "note_en": "Routine, offered to all.",
+      "private_price": 350,
+      "public_price": 150,
+      "source": "KKH; Income",
+      "source_url": "https://www.kkh.com.sg/patient-care/conditions-treatments/your-pregnancy-journey-in-kkh",
+      "stage": "pregnancy",
+      "type": "one_off",
+      "verified": true
+    },
+    {
+      "category_en": "Antenatal",
+      "category_zh": "产检",
+      "id": "preg_ogtt",
+      "mandatory": true,
+      "name_en": "Oral Glucose Tolerance Test OGTT (24-28w)",
+      "name_zh": "妊娠糖尿病筛查 OGTT（24-28周）",
+      "private_price": 90,
+      "public_price": 35,
+      "source": "Income; HeyBaby; ATA Medical Jan 2026 $27.25",
+      "source_url": "https://www.income.com.sg/blog/pregnancy-and-delivery-costs-singapore",
+      "stage": "pregnancy",
+      "type": "one_off",
+      "verified": true
+    },
+    {
+      "category_en": "Antenatal",
+      "category_zh": "产检",
+      "id": "preg_gbs",
+      "mandatory": true,
+      "name_en": "GBS swab (35-37w)",
+      "name_zh": "GBS 链球菌筛查（35-37周）",
+      "note_en": "Reported as included in visit. Do NOT invent a price - show $0 / included.",
+      "private_price": 0,
+      "public_price": 0,
+      "source": "KKH; HeyBaby",
+      "source_url": "https://www.kkh.com.sg/patient-care/conditions-treatments/your-pregnancy-journey-in-kkh",
+      "stage": "pregnancy",
+      "type": "one_off",
+      "verified": false
+    },
+    {
+      "category_en": "Supplements",
+      "category_zh": "营养品",
+      "id": "preg_folic",
+      "mandatory": true,
+      "name_en": "Folic acid / prenatal vitamins (per month)",
+      "name_zh": "叶酸 / 孕妇维生素（每月）",
+      "private_price": 60,
+      "public_price": 25,
+      "source": "Guardian / Shopee Nov 2026: 21st Century $16.90/60s, Blackmores $72.80/120s",
+      "source_url": "https://guardian.com.sg/blackmores-pregnancy-and-breast-feeding-advanced-120s-169106.html",
+      "stage": "pregnancy",
+      "type": "monthly",
+      "verified": true
+    },
+    {
+      "category_en": "Antenatal",
+      "category_zh": "产检",
+      "id": "preg_antenatal_class",
+      "mandatory": false,
+      "name_en": "Antenatal class - KKH (per couple)",
+      "name_zh": "产前课程 - KKH（一对夫妇）",
+      "private_price": 306,
+      "public_price": 240,
+      "source": "KKH official, session 4 Nov-5 Dec 2026",
+      "source_url": "https://www.kkh.com.sg/events/public/kkh-antenatal-programme",
+      "stage": "pregnancy",
+      "type": "one_off",
+      "verified": true
+    },
+    {
+      "category_en": "Confinement",
+      "category_zh": "坐月子",
+      "id": "birth_confinement_nanny",
+      "mandatory": false,
+      "name_en": "Confinement nanny, live-in 28 days (agency)",
+      "name_zh": "陪月嫂 住家28天（中介）",
+      "note_en": "Range $3,800-$4,600 agency benchmark. MOM levy $60/mo if child SC, $300/mo if not. Angbao/herbs extra.",
+      "private_price": 4600,
+      "public_price": 3880,
+      "source": "PEM / NewBubs 2026; Income",
+      "source_url": "https://www.fussymama.sg/blogs/hiring-a-confinement-nanny-singapore",
+      "stage": "post_birth",
+      "type": "one_off",
+      "verified": true
+    },
+    {
+      "category_en": "Confinement",
+      "category_zh": "坐月子",
+      "id": "birth_confinement_food",
+      "mandatory": false,
+      "name_en": "Confinement food delivery, lunch+dinner 28d",
+      "name_zh": "月子餐 外送 午+晚 28天",
+      "private_price": 1828,
+      "public_price": 1478,
+      "source": "ReLacto $1,478; Chilli Padi $1,828, Nov 2026",
+      "source_url": "https://www.misslobang.com/article/best-confinement-food-delivery-singapore-2026",
+      "stage": "post_birth",
+      "type": "one_off",
+      "verified": true
+    },
+    {
+      "category_en": "Feeding",
+      "category_zh": "喂养",
+      "id": "baby_formula_mid",
+      "mandatory": true,
+      "name_en": "Formula - mid-range, e.g. Aptamil Gold+ / NAN / S-26 (3 tins/mo)",
+      "name_zh": "奶粉 - 中档，如 Aptamil Gold+ / NAN / S-26（每月3罐）",
+      "note_en": "Default 3 tins/mo, range 2-5. Budget FairPrice Gold $31.09/tin (~$93/mo). Premium Enfamil Gentlease $89.90/tin.",
+      "private_price": 220,
+      "public_price": 220,
+      "source": "FairPrice Nov 2026: Aptamil Gold+ 900g $73.45, NAN 850g $71.85, S-26 900g $71.80",
+      "source_url": "https://www.fairprice.com.sg/product-listing?category=stage-1-1",
+      "stage": "0-1y",
+      "type": "monthly",
+      "verified": true
+    },
+    {
+      "category_en": "Feeding",
+      "category_zh": "喂养",
+      "id": "baby_formula_stage3",
+      "mandatory": true,
+      "name_en": "Formula Stage 3 - toddler (2 tins/mo)",
+      "name_zh": "奶粉 3段（每月2罐）",
+      "private_price": 105,
+      "public_price": 105,
+      "source": "FairPrice Nov 2026: Aptamil Stage 3 $50.35, Similac Gain $52.50, NAN $54.20",
+      "source_url": "https://omni.fairprice.com.sg/product-listing?category=stage-3",
+      "stage": "1-3y",
+      "type": "monthly",
+      "verified": true
+    },
+    {
+      "category_en": "Diapers",
+      "category_zh": "尿不湿",
+      "id": "baby_diapers_mid",
+      "mandatory": true,
+      "name_en": "Diapers - mid-range, e.g. Pampers / Huggies (per month)",
+      "name_zh": "尿不湿 - 中档，如 Pampers / Huggies（每月）",
+      "note_en": "Budget MamyPoko Extra Dry ~$70/mo. Premium Merries ~$95-127/mo.",
+      "private_price": 95,
+      "public_price": 95,
+      "source": "FairPrice Nov 2026: Pampers M 64pcs $24.45 ($0.39/pc), Huggies Platinum M $28.17. Usage 0-3m 8-12/day, 6-12m 5-7/day.",
+      "source_url": "https://www.fairprice.com.sg/product/pampers-baby-dry-diapers-m-6-11kg-64-per-pack-13129651",
+      "stage": "0-1y",
+      "type": "monthly",
+      "verified": true
+    },
+    {
+      "category_en": "Care",
+      "category_zh": "护理",
+      "id": "baby_wipes",
+      "mandatory": true,
+      "name_en": "Baby wipes (per month)",
+      "name_zh": "湿纸巾（每月）",
+      "private_price": 20,
+      "public_price": 20,
+      "source": "FairPrice Nov 2026: Huggies 3x80 $11.15, Pigeon 6x70 $17.80",
+      "source_url": "https://www.fairprice.com.sg/category/baby-child-toys",
+      "stage": "0-1y",
+      "type": "monthly",
+      "verified": true
+    },
+    {
+      "category_en": "Gear",
+      "category_zh": "大件",
+      "id": "baby_cot",
+      "mandatory": true,
+      "name_en": "Cot / crib - IKEA SNIGLAR",
+      "name_zh": "婴儿床 - IKEA SNIGLAR",
+      "note_en": "Mattress extra $40-170. Private price = mid-range convertible cot.",
+      "private_price": 419,
+      "public_price": 129,
+      "source": "IKEA SG Nov 2026 $129; convertible mid $319-419",
+      "source_url": "https://www.ikea.com/sg/en/p/sniglar-cot-birch-70610620/",
+      "stage": "0-1y",
+      "type": "one_off",
+      "verified": true
+    },
+    {
+      "category_en": "Gear",
+      "category_zh": "大件",
+      "id": "baby_stroller",
+      "mandatory": true,
+      "name_en": "Stroller (one-off)",
+      "name_zh": "推车（一次性）",
+      "private_price": 799,
+      "public_price": 299,
+      "source": "Shopee Nov 2026: Aprica Nano $298.90, Luxuna $698.90; FairPrice $179 budget",
+      "source_url": "https://shopee.sg/Aprica-Nano-Smart-Plus-Stroller-i.497308831.19805869610",
+      "stage": "0-1y",
+      "type": "one_off",
+      "verified": true
+    },
+    {
+      "category_en": "Gear",
+      "category_zh": "大件",
+      "id": "baby_carseat",
+      "mandatory": true,
+      "name_en": "Car seat (one-off)",
+      "name_zh": "安全座椅（一次性）",
+      "private_price": 499,
+      "public_price": 299,
+      "source": "MissLobang 16 Nov 2026: i-Max 360 $299, Maxi-Cosi $399-499; FairPrice $329-399",
+      "source_url": "https://www.misslobang.com/article/best-car-seats-singapore",
+      "stage": "0-1y",
+      "type": "one_off",
+      "verified": true
+    },
+    {
+      "category_en": "Gear",
+      "category_zh": "大件",
+      "id": "baby_breastpump",
+      "mandatory": false,
+      "name_en": "Breast pump - double electric (one-off)",
+      "name_zh": "吸奶器 双边电动（一次性）",
+      "private_price": 799,
+      "public_price": 389,
+      "source": "HoneyKids / Sassy Mama: Spectra S1+ $389, Medela Freestyle $799 - secondary, re-verify at retailer",
+      "source_url": "https://honeykidsasia.com/best-breast-pumps-in-singapore/",
+      "stage": "0-1y",
+      "type": "one_off",
+      "verified": false
+    },
+    {
+      "category_en": "Healthcare",
+      "category_zh": "医疗",
+      "id": "baby_vaccines_sc",
+      "mandatory": true,
+      "name_en": "NCIS vaccinations at polyclinic - SC child",
+      "name_zh": "NCIS 疫苗 政府诊所 - 公民孩子",
+      "note_en": "Free at polyclinics for SC. PR ~$10-30/dose secondary. Private price = per-dose estimate, editable.",
+      "private_price": 100,
+      "public_price": 0,
+      "source": "MOH NCIS; FussyMama. Private $50-150/dose secondary.",
+      "source_url": "https://www.fussymama.sg/glossary/ncis-national-childhood-immunisation-schedule",
+      "stage": "0-1y",
+      "type": "one_off",
+      "verified": true
+    },
+    {
+      "category_en": "Healthcare",
+      "category_zh": "医疗",
+      "id": "health_polyclinic_sc",
+      "mandatory": true,
+      "name_en": "Polyclinic visit - SC child <18y (per visit)",
+      "name_zh": "政府诊所看诊 - 公民孩子（每次）",
+      "private_price": 60,
+      "public_price": 9,
+      "source": "NHG Polyclinics fees from 1 Aug 2026 $9.00; private GP $40-80, PD $50-150",
+      "source_url": "https://www.nhghealth.com.sg/nhg-polyclinics/patients-public/polyclinic-visit/fees-payments-deposits",
+      "stage": "0-6y",
+      "type": "per_visit",
+      "verified": true
+    },
+    {
+      "category_en": "Healthcare",
+      "category_zh": "医疗",
+      "id": "health_kkh_ae",
+      "mandatory": false,
+      "name_en": "KKH Children's Emergency attendance (per visit)",
+      "name_zh": "KKH 儿童急诊（每次）",
+      "private_price": 176,
+      "public_price": 176,
+      "source": "KKH official eff. 8 Aug 2026",
+      "source_url": "https://www.kkh.com.sg/clinic-visit/charges-and-payments/outpatient-charges",
+      "stage": "0-6y",
+      "type": "per_visit",
+      "verified": true
+    },
+    {
+      "category_en": "Childcare",
+      "category_zh": "托育",
+      "id": "childcare_infant_aop",
+      "mandatory": false,
+      "name_en": "Infant care - Anchor Operator full-day (per month, before subsidy)",
+      "name_zh": "托婴 - Anchor Operator 全日（每月，津贴前）",
+      "note_en": "Net AOP working, no Additional Subsidy: $746.15/mo. Max Additional Subsidy up to $710/mo - use ECDA table, do not hard-code a single max.",
+      "private_price": 3515.25,
+      "public_price": 1346.15,
+      "source": "MSF / E-Bridge cap 1 Jan 2026: $1,235 before GST, $1,346.15 incl GST. Basic Subsidy -$600 working / -$150 non-working. Private EtonHouse $3,225 before GST.",
+      "source_url": "https://www.e-bridge.edu.sg/our-fees/",
+      "stage": "0-1y",
+      "type": "monthly",
+      "verified": true
+    },
+    {
+      "category_en": "Childcare",
+      "category_zh": "托育",
+      "id": "childcare_aop",
+      "mandatory": false,
+      "name_en": "Childcare - Anchor Operator full-day (per month, before subsidy)",
+      "name_zh": "托儿所 - Anchor Operator 全日（每月，津贴前）",
+      "note_en": "Net AOP working: $364.90/mo. Partner Operator cap $650 before GST ($708.50 incl). MOE Kindergarten SC $160/mo half-day.",
+      "private_price": 1800,
+      "public_price": 664.9,
+      "source": "MSF / E-Bridge cap 1 Jan 2026: $610 before GST, $664.90 incl GST. Basic Subsidy -$300 working. Private mid $1,200-2,000.",
+      "source_url": "https://www.msf.gov.sg/media-room/article/subsidies-to-ensure-affordability-of-preschools",
+      "stage": "1-6y",
+      "type": "monthly",
+      "verified": true
+    },
+    {
+      "category_en": "Clothing",
+      "category_zh": "衣物",
+      "id": "child_clothes_monthly",
+      "mandatory": true,
+      "name_en": "Clothes / shoes (per month, allowance)",
+      "name_zh": "衣服 / 鞋子（每月预算）",
+      "note_en": "Modelled estimate, not a price list. User-editable allowance.",
+      "private_price": 75,
+      "public_price": 75,
+      "source": "SmartCalculator Apr 2026 model $50-100/mo; Uniqlo Baby Bodysuit $9.90, Pajamas $29.90",
+      "source_url": "https://www.smartcalculator.sg/articles/cost-of-raising-child",
+      "stage": "1-6y",
+      "type": "monthly",
+      "verified": false
+    },
+    {
+      "category_en": "Food",
+      "category_zh": "饮食",
+      "id": "child_food_monthly",
+      "mandatory": true,
+      "name_en": "Food / groceries - marginal cost per child (per month)",
+      "name_zh": "饮食 /  groceries 孩子边际成本（每月）",
+      "note_en": "Modelled estimate. Fresh milk Meiji 946ml $3.63 FairPrice.",
+      "private_price": 400,
+      "public_price": 400,
+      "source": "SmartCalculator Apr 2026 $300-500/mo",
+      "source_url": "https://www.smartcalculator.sg/articles/cost-of-raising-child",
+      "stage": "3-6y",
+      "type": "monthly",
+      "verified": false
+    },
+    {
+      "category_en": "Enrichment",
+      "category_zh": "兴趣班",
+      "id": "enrich_kumon",
+      "mandatory": false,
+      "name_en": "Kumon Maths - 1 subject (per month)",
+      "name_zh": "Kumon 数学 一科（每月）",
+      "private_price": 170,
+      "public_price": 170,
+      "source": "Kumon Singapore published fee, checked Aug-Oct 2026",
+      "source_url": "https://sg.theasianparent.com/kumon-singapore/amp",
+      "stage": "3-6y",
+      "type": "monthly",
+      "verified": true
+    },
+    {
+      "category_en": "Enrichment",
+      "category_zh": "兴趣班",
+      "id": "enrich_swim_activesg",
+      "mandatory": false,
+      "name_en": "Swimming - ActiveSG Learn-to-Swim (per 4-lesson term)",
+      "name_zh": "游泳 - ActiveSG（每4节课）",
+      "note_en": "ActiveSG $70-90/term. Private swim school $120-200/mo.",
+      "private_price": 180,
+      "public_price": 80,
+      "source": "SwimSelectSG; JustSwim $75/session 1-to-1",
+      "source_url": "https://swimselectsg.com/blog/swim-lessons-cost-singapore",
+      "stage": "3-6y",
+      "type": "per_term",
+      "verified": true
+    },
+    {
+      "category_en": "Enrichment",
+      "category_zh": "兴趣班",
+      "id": "enrich_piano_yamaha",
+      "mandatory": false,
+      "name_en": "Piano - Yamaha individual Grade 1 (per month)",
+      "name_zh": "钢琴 - Yamaha 一对一 Grade 1（每月）",
+      "private_price": 232,
+      "public_price": 232,
+      "source": "Yamaha SG official",
+      "source_url": "https://sg.yamaha.com/en/education/junior-courses/yamaha-piano-course/",
+      "stage": "3-6y",
+      "type": "monthly",
+      "verified": true
+    },
+    {
+      "category_en": "Enrichment",
+      "category_zh": "兴趣班",
+      "id": "enrich_mandarin_berries",
+      "mandatory": false,
+      "name_en": "Mandarin - Berries (per month, approx)",
+      "name_zh": "华文 - Berries（每月约）",
+      "private_price": 265,
+      "public_price": 265,
+      "source": "Berries $35-55/lesson, $560-880/term - no single official fee, use range",
+      "source_url": "https://kakilist.com/provider/berries-world-of-learning-11004",
+      "stage": "3-6y",
+      "type": "monthly",
+      "verified": false
+    }
+  ],
+  "meta": {
+    "country": "Singapore",
+    "currency": "SGD",
+    "disclaimer_en": "Prices are for a savings-simulation game only, as published on 20 Nov 2026. They are not quotes. Every price is editable in the app. Verify with the hospital / retailer before making a real decision.",
+    "disclaimer_zh": "价格仅供模拟存钱游戏使用，为2026年11月20日公开价，非报价。App内每项价格均可修改，真实决策请以医院/商家为准。",
+    "fallback": "If the GitHub fetch fails or is offline, use the embedded copy in index.html.",
+    "github_raw_url_template": "https://raw.githubusercontent.com/<YOUR_USERNAME>/<YOUR_REPO>/main/prices.json",
+    "last_checked": "2026-11-20",
+    "price_source_note": "MOH delivery bills are median transacted bills for Singapore Citizens, 1 Jan-31 Dec 2023, incl. GST, before MediSave/insurance. Public figures are AFTER government subsidy; private figures are NOT subsidised. Hospital 'maternity package' prices cover hospital charges ONLY - professional fees excluded - and are NOT the total bill. Do not present a package price as the total delivery cost.",
+    "research_date": "2026-11-20",
+    "version": "1.1.0",
+    "changelog": "v1.1.0: added twins, jaundice, NICU tiers, GDM/preeclampsia, child status, gifts, medicine cabinet, full-month/100-day/Zhuazhou, helper, breastfeeding, second-hand, inflation 2.0%, interest 2.5%."
+  },
+  "not_verified_do_not_hardcode": [
+    "Standalone price for first-visit blood panel, GBS swab, growth scan, polyclinic antenatal visit",
+    "Emergency C-section after-hours surcharge $5,000 (anecdotal Lemon8 only)",
+    "Exact PR ward-subsidy % (only specialist-clinic 25% verified)",
+    "Large Family MediSave Grant $5,000 for 3rd+ (secondary only, not on CPF page found)",
+    "KKH Antenatal Package $818 (secondary only)",
+    "Insurer-specific Integrated Shield Plan premium for age 0-6 (only $200-600/yr secondary range)",
+    "School-bus fare, MRT child concession, holiday camp prices, lost-item replacement prices",
+    "Baby bath tub, pacifier, diaper cream, Johnson's baby wash - no clean FairPrice price found in Nov 2026 sweep"
+  ],
+  "random_events": [
+    {
+      "cost_private": 60,
+      "cost_sgd": 9,
+      "id": "evt_fever_gp",
+      "name_en": "Baby fever - GP / polyclinic visit",
+      "name_zh": "宝宝发烧看医生",
+      "probability_per_month": 0.08,
+      "source": "Polyclinic $9 SC; GP $40-80"
+    },
+    {
+      "cost_private": 120,
+      "cost_sgd": 100,
+      "id": "evt_hfmd_pd",
+      "name_en": "HFMD / ear infection - paediatrician visit",
+      "name_zh": "手足口病 / 中耳炎看儿科",
+      "probability_per_month": 0.04,
+      "source": "SBCC $50-80 consult, $80-150 all-in"
+    },
+    {
+      "cost_private": 176,
+      "cost_sgd": 176,
+      "id": "evt_ae",
+      "name_en": "Fall / injury - Children's A&E",
+      "name_zh": "摔伤 / 意外去急诊",
+      "probability_per_month": 0.02,
+      "source": "KKH Children's Emergency $176 flat, eff. 8 Aug 2026"
+    },
+    {
+      "cost_private": 75,
+      "cost_sgd": 75,
+      "id": "evt_growth_spurt",
+      "name_en": "Growth spurt - new clothes",
+      "name_zh": "长个子换衣服",
+      "probability_per_month": 0.06,
+      "source": "Clothing allowance $50-100/mo model"
+    },
+    {
+      "cost_private": 600,
+      "cost_sgd": 600,
+      "id": "evt_toy_birthday",
+      "name_en": "Birthday party (10 kids, venue package)",
+      "name_zh": "生日派对（10个孩子）",
+      "probability_per_year": 1.0,
+      "source": "ExploreJungle Nov 2026 $490-860 typical"
+    },
+    {
+      "cost_private": 150,
+      "cost_sgd": 25,
+      "id": "evt_dental_filling",
+      "name_en": "Dental filling - polyclinic (per tooth)",
+      "name_zh": "补牙 政府诊所（每颗）",
+      "probability_per_year": 0.15,
+      "source": "SingHealth Polyclinic $20.20-36.10 tooth-coloured; private $80-250"
+    }
+  ],
+  "subsidies": {
+    "baby_bonus_pre_2027": {
+      "applies_to": "Babies born before 1 Apr 2027, child must be SC, parents lawfully married for Cash Gift",
+      "by_birth_order": [
+        {
+          "cash_at_birth": 3000,
+          "cash_gift_total": 11000,
+          "cda_co_matching_cap": 4000,
+          "cda_first_step": 5000,
+          "order": 1
+        },
+        {
+          "cash_at_birth": 3000,
+          "cash_gift_total": 11000,
+          "cda_co_matching_cap": 7000,
+          "cda_first_step": 5000,
+          "order": 2
+        },
+        {
+          "cash_at_birth": 4000,
+          "cash_gift_total": 13000,
+          "cda_co_matching_cap": 9000,
+          "cda_first_step": 10000,
+          "order": 3
+        },
+        {
+          "cash_at_birth": 4000,
+          "cash_gift_total": 13000,
+          "cda_co_matching_cap": 15000,
+          "cda_first_step": 10000,
+          "order": "5+"
+        }
+      ],
+      "note_en": "Cash Gift is staggered, not all at birth. CDA is ring-fenced, not cash. Show cash vs ring-fenced separately.",
+      "source": "https://www.msf.gov.sg/what-we-do/support-families-and-parents/article/programmes/Baby-Bonus-Scheme",
+      "verified": true
+    },
+    "medisave_grant_newborns": {
+      "amount_sgd": 5000,
+      "eligible": "SC newborns born on/after 1 Apr 2025. Auto-credited to baby MediSave. NOT cash - do NOT subtract from cash cost in the app; show separately as ring-fenced MediSave.",
+      "source": "https://www.cpf.gov.sg/service/article/what-is-the-medisave-grant-for-newborns",
+      "verified": true
+    },
+    "medisave_maternity_package": {
+      "eligible": "SC and PR only, own/spouse MediSave",
+      "limits_sgd": {
+        "daily_hospital_first_2_days": 1130,
+        "daily_hospital_from_day_3": 400,
+        "delivery_assisted_vaginal": 1390,
+        "delivery_c_section": 2380,
+        "delivery_vaginal": 1120,
+        "pre_delivery_max": 900,
+        "worked_example_c_section_3d_max": 5940,
+        "worked_example_vaginal_2d_max": 4280
+      },
+      "source": "https://www.cpf.gov.sg/member/infohub/educational-resources/what-you-need-to-know-about-the-medisave-maternity-package",
+      "verified": true
+    },
+    "sg_child_support_package_from_2027": {
+      "applies_to": "Babies born on/after 1 Apr 2027. Up to $62,000 total regardless of birth order: $10,000 Baby Gift + $2,000/yr Child Credits age 1-16 ($32,000) + $5,000 CDA First Step + $5,000 CDA co-matching cap + $10,000 PSEA top-up at 17. App must switch tables by simulated birth date - do NOT mix with Baby Bonus.",
+      "source": "https://www.life.gov.sg/family-parenting/benefits-support/sg-child-support-package",
+      "verified": true
+    }
+  },
+  "multiples": {
+    "twins_probability": 0.015,
+    "triplets_probability": 0.0003,
+    "source": "ICA births 2015-2024 via Straits Times: 5,161 twin pairs (~1.4% of maternities), 86 triplet sets (~0.025%). IVF: single embryo <1%, two embryos 20% (KKIVF).",
+    "source_url": "https://www.straitstimes.com/singapore/community/12-sets-of-triplets-born-in-2024-amid-the-changing-face-of-multiple-births-in-singapore",
+    "reveal_week": 12,
+    "effect": "Recurring costs x2 (twins) / x3 (triplets). One-off gear: 2 cots, 2 car seats, double stroller. Confinement surcharge +$1,200-1,800 for twins.",
+    "verified": true
+  },
+  "child_status": {
+    "initial": {
+      "health": 80,
+      "happiness": 80,
+      "development": 50
+    },
+    "range": [
+      0,
+      100
+    ],
+    "rules_en": "Health falls if vaccines skipped or illness untreated; illness probability rises when Health <50. Happiness falls if birthday gift / toys / party skipped; rises with play, party, gifts. Development rises with books, enrichment, play. All values editable in Settings.",
+    "rules_zh": "健康：不打疫苗、生病不治会掉，健康低于50生病概率变高。开心：跳过生日礼物/玩具/派对会掉，玩、派对、礼物会加。成长：绘本、早教、兴趣班会加。",
+    "effects": {
+      "no_medicine_cabinet_illness_surcharge": 0.3,
+      "skip_birthday_gift_happiness": -10
+    }
+  },
+  "gifts_and_celebrations": [
+    {
+      "id": "gift_birthday_present",
+      "name_en": "Birthday present (per year)",
+      "name_zh": "生日礼物（每年）",
+      "price": 50,
+      "price_range": [
+        30,
+        70
+      ],
+      "optional": true,
+      "happiness": 10,
+      "source": "Toy prices Baby-Central Jul 2026; modelled range, not a published spend survey",
+      "source_url": "https://baby-central.com.sg/blogs/guides/best-toys-for-1-2-year-olds-in-singapore-2026-edition",
+      "verified": false
+    },
+    {
+      "id": "gift_christmas",
+      "name_en": "Christmas gift",
+      "name_zh": "圣诞礼物",
+      "price": 50,
+      "price_range": [
+        30,
+        70
+      ],
+      "optional": true,
+      "happiness": 8,
+      "source": "Same toy range as birthday, proxy",
+      "verified": false
+    },
+    {
+      "id": "gift_cny_angbao_to_child",
+      "name_en": "CNY angbao TO own child",
+      "name_zh": "新年红包 给自己孩子",
+      "price": 88,
+      "price_range": [
+        68,
+        188
+      ],
+      "optional": true,
+      "happiness": 5,
+      "source": "SmartLocal / You.co / Honeycombers CNY 2026 guides",
+      "source_url": "https://thesmartlocal.com/read/cny-angbao-guide/",
+      "verified": true
+    },
+    {
+      "id": "cele_full_month_home",
+      "name_en": "Full-month celebration, home modest (30 guests)",
+      "name_zh": "满月 家里办 简约（30人）",
+      "price": 1344,
+      "optional": true,
+      "happiness": 10,
+      "breakdown": "Gift boxes 30x$11.90=$357 + catering 30x$22.90=$687 + cake $100 + decor $200",
+      "source": "PapaMama / Rasel / FoodLine Mar-Apr 2026",
+      "source_url": "https://www.misslobang.com/article/best-baby-full-month-gift-packages-singapore-2026",
+      "verified": true
+    },
+    {
+      "id": "cele_full_month_box",
+      "name_en": "Full-month gift box (per box)",
+      "name_zh": "满月礼盒（每盒）",
+      "price": 11.9,
+      "price_range": [
+        5.9,
+        30.9
+      ],
+      "optional": true,
+      "source": "Sweetest Moments $5.90, PapaMama $11.90, Keong Saik $25.00",
+      "verified": true
+    },
+    {
+      "id": "cele_100day",
+      "name_en": "100-day celebration (same cost as full-month)",
+      "name_zh": "百日宴（同满月价）",
+      "price": 1344,
+      "optional": true,
+      "note": "Player chooses full-month OR 100-day OR both — do not double-count by default.",
+      "verified": false
+    },
+    {
+      "id": "cele_zhuazhou",
+      "name_en": "Zhuazhou 抓周 set (1st birthday)",
+      "name_zh": "抓周套装（1岁生日）",
+      "price": 10,
+      "price_range": [
+        5,
+        20
+      ],
+      "optional": true,
+      "note": "Zhuazhou is 1st birthday, NOT 100-day. Second-hand/rental Carousell Nov 2026.",
+      "source_url": "https://www.carousell.sg/p/chinese-traditional-baby-zhuazhou-ceremony-set-with-mat-1469317073/",
+      "verified": true
+    },
+    {
+      "id": "party_birthday_venue",
+      "name_en": "Birthday party venue, ~10 children",
+      "name_zh": "生日派对 场地（约10个孩子）",
+      "price": 675,
+      "price_range": [
+        490,
+        860
+      ],
+      "optional": true,
+      "happiness": 15,
+      "source": "ExploreJungle re-checked 11 Nov 2026",
+      "source_url": "https://www.explorejungle.co/blog/B0082-kids-birthday-party-venues-in-singapore-sorted-by-age-band-and-budget",
+      "verified": true
+    }
+  ],
+  "medicine_cabinet": {
+    "monthly_allowance_no_probiotic": [
+      10,
+      30
+    ],
+    "monthly_allowance_with_daily_probiotic": [
+      60,
+      75
+    ],
+    "note": "$10-30/mo is valid ONLY without daily BioGaia. Basic: Panadol $9.75, KoolFever $7.08, Sterimar $19.55, Vitamin D DDROPS $37.30/90 drops (~$12.43/mo). BioGaia $50.15/5ml (~$50-60/mo daily) breaks the $10-30 allowance — show it as a separate line if ticked.",
+    "items": [
+      {
+        "name": "Panadol Children Suspension 60ml",
+        "price": 9.75,
+        "source_url": "https://www.fairprice.com.sg/tag/panadol-haba"
+      },
+      {
+        "name": "KoolFever Patch 6pcs",
+        "price": 7.08,
+        "source_url": "https://omni.fairprice.com.sg/product-listing?category=fever--pain-relief"
+      },
+      {
+        "name": "Sterimar Baby Nasal Spray 50ml",
+        "price": 19.55,
+        "source_url": "https://omni.fairprice.com.sg/product-listing?category=eye%2C-ear--nasal-drops-1"
+      },
+      {
+        "name": "DDROPS Vitamin D3 90 drops",
+        "price": 37.3,
+        "source_url": "https://www.watsons.com.sg/ddrops-organic-baby-liquid-vitamin-d3-400-iu-90-drops-2.5ml/p/BP_51541"
+      },
+      {
+        "name": "Thermometer Omron MC-341 (one-off)",
+        "price": 12.0,
+        "source_url": "https://payment.fairprice.com.sg/product-listing?category=thermometers"
+      }
+    ],
+    "verified": true
+  },
+  "jaundice": {
+    "present_pct": 0.6,
+    "phototherapy_needed_pct": 0.1,
+    "hospital_public_per_day": [
+      200,
+      400
+    ],
+    "hospital_private_per_day": [
+      500,
+      1000
+    ],
+    "home_rental_3d2n": [
+      298,
+      399
+    ],
+    "home_providers": "Doctor Anywhere $298/3D2N, Baby Specialist Bilibed $299, Bili-Blanket $359, Firefly $399",
+    "source": "60% full-term (Academy of Medicine 2018 via NHG/KKH@Home); 10% needing phototherapy is secondary (NCBI via market report) — flag as estimate",
+    "verified": false
+  },
+  "nicu_tiers_moh_drg": [
+    {
+      "tier": "Late preterm 34-36w, no problem",
+      "ward_c_median": 721,
+      "range": [
+        571,
+        977
+      ],
+      "code": "P66D",
+      "source_url": "https://www.moh.gov.sg/managing-expenses/bills-and-fee-benchmarks/cost-financing/drg-p66d-bill-information/"
+    },
+    {
+      "tier": "2000-2499g, other problem",
+      "ward_c_median": 1331,
+      "range": [
+        338,
+        3593
+      ],
+      "code": "P66C",
+      "source_url": "https://www.moh.gov.sg/managing-expenses/bills-and-fee-benchmarks/cost-financing/drg-p66c-bill-information/"
+    },
+    {
+      "tier": "2000-2499g, major problem",
+      "ward_c_median": 4885,
+      "range": [
+        1792,
+        7819
+      ],
+      "code": "P66B",
+      "source_url": "https://www.moh.gov.sg/managing-expenses/bills-and-fee-benchmarks/cost-financing/drg-p66b-bill-information/"
+    },
+    {
+      "tier": "1500-1999g, other problem",
+      "ward_c_median": 5534,
+      "range": [
+        3302,
+        9016
+      ],
+      "code": "P65C",
+      "source_url": "https://www.moh.gov.sg/managing-expenses/bills-and-fee-benchmarks/cost-financing/drg-p65c-bill-information/"
+    },
+    {
+      "tier": "1250-1499g, no significant OR",
+      "ward_c_median": 17030,
+      "range": [
+        13558,
+        22820
+      ],
+      "code": "P64Z",
+      "source_url": "https://www.moh.gov.sg/managing-expenses/bills-and-fee-benchmarks/cost-financing/drg-p64z-bill-information/"
+    }
+  ],
+  "preterm_rate": {
+    "national_2024": 0.085,
+    "source": "MOH Apr 2026: 8.5% in 2024 (2,873 babies)",
+    "verified": true
+  },
+  "pregnancy_complications": {
+    "gestational_diabetes_pct": 0.2,
+    "gdm_extra_cost": 500,
+    "gdm_note": "Prevalence ~20-25% (GUSTO 18.9%). Extra ~$500 for meds + extra visits + dietitian (secondary, editable). Thomson HOPE programme $380 excl GST.",
+    "preeclampsia_pct": 0.04,
+    "preeclampsia_note": "KKH 3.6% (1999-2003), recent 4-5%. Twins 7.5%, triplets 19.4%. No MOH bill specifically for preeclampsia — use C-section median as proxy + extra monitoring, flagged.",
+    "verified": false
+  },
+  "helper_maid": {
+    "salary_monthly": {
+      "filipino": [
+        650,
+        900
+      ],
+      "indonesian": [
+        550,
+        800
+      ],
+      "myanmar": [
+        450,
+        800
+      ]
+    },
+    "levy_monthly": {
+      "standard": 300,
+      "concessionary_sc_child_under_16": 60,
+      "second_helper": 450
+    },
+    "levy_note": "MOM rule is SC child <16, not <7. Concession saves $240/mo.",
+    "agency_fee_total": [
+      1000,
+      3000
+    ],
+    "food_utilities_monthly": [
+      180,
+      300
+    ],
+    "insurance_26m": [
+      400,
+      800
+    ],
+    "all_in_monthly": {
+      "indonesian": 1305,
+      "filipino": 1430,
+      "myanmar": 1205
+    },
+    "effect": "Monthly choice. If chosen, it replaces/reduces infant-care/childcare cost — do not charge both in full without a toggle.",
+    "source_url": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker/foreign-domestic-worker-levy",
+    "verified": true
+  },
+  "feeding_choice": {
+    "breastfeeding_saving_per_month": [
+      150,
+      190
+    ],
+    "note": "Derived: $220/mo formula saved minus pump amortised $32-67/mo minus pads+bags $30-50/mo. 'Breastfeeding is free' is false — show pump + consumables. Nursing bras 3x$45=$135 one-off, breast pads, milk bags $0.30-0.43/bag.",
+    "verified": false
+  },
+  "second_hand": {
+    "discount_rule": "40-60% off RRP for generic gear; 50-90% off for premium/bundle. Show new price, used range, let player pick New / Used / Free.",
+    "warning": "Do NOT present a used car seat as equivalent to new. Car seats expire, a crashed seat must not be reused. Add 'check expiry / crash history' step.",
+    "cleaning_refresh": [
+      48,
+      85
+    ],
+    "verified": true
+  },
+  "economy": {
+    "inflation_default_pct_per_year": 0.02,
+    "inflation_note": "MAS forecast 2026 headline ~2.0%, core 1.5-2.0%. 2025 headline 0.9%. 10-yr avg ~1.7%. Use 2.0% as default, applied at each simulated birthday, editable.",
+    "interest_default_pct_per_year": 0.025,
+    "interest_note": "CPF OA floor 2.5% p.a., SSB 2.25% avg over 10y. Label as simulation assumption, NOT a bank rate. Real bank base is 0.05%, top tier up to 4.10% only with salary+spend conditions. Apply monthly as 2.5%/12 on pot balance.",
+    "verified": true
+  },
+  "end_simulation_option_a": {
+    "mode": "Player-initiated only. No random miscarriage/abortion roll.",
+    "text_en": "End this simulation — quiet settlement screen, no score penalty, restart option. Respectful language only.",
+    "text_zh": "结束这次模拟 — 安静结算，不扣分，可重新开始。仅玩家主动选择，不随机触发。",
+    "context_rates": "Early miscarriage up to 1 in 5 pregnancies (KKH). For documentation only, not a game event."
+  }
+}
